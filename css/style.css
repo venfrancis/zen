@@ -1,0 +1,152 @@
+/*===============================================
+
+By: Ven Francis
+
+===============================================*/
+
+/*===============================================
+
+  TABLE OF CONTENTS
+
+  I. FONT IMPORTS
+  II. BOOTSTRAP CUSTOMIZATION
+
+
+===============================================*/
+
+
+/*===============================================
+
+II. BOOTSTRAP CUSTOMIZATION
+
+===============================================*/
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*===============================================
+
+I. SLIDE CONFIG
+
+===============================================*/
+
+
+body 										{background: #fcfcfc;;}
+.main-wrapper{border-top:15px solid #222}
+header 										{}
+
+nav 										{overflow:hidden;margin-bottom:60px;background: #fafafa;border-top: 1px solid #dadada;border-bottom: 1px solid #dadada;}
+nav ul 										{}
+nav ul li 									{display:inline-block;}
+
+
+.pagination {					display:block; clear:both;}
+.pagination p {					display: inline-block;margin: 0px 30px 0 0;overflow: hidden;line-height: 250%;font-style: italic;}
+.pagination ul {				display: inline-block;
+								*display: inline;  /* IE7 inline-block hack */
+								margin:0px;padding:0px;;  *zoom: 1;
+}
+.pagination ul > li {			display: inline-block;margin: 0px 6px 0px 0px;}
+.pagination ul > li > a,
+.pagination ul > li > span {	float:left; padding: 10px 15px;
+line-height: 100%;  text-decoration: none;  background-color: #ffffff; border: 1px solid #dddddd;
+								border-radius: 20px;
+								color:#222;font-size: 18px;}
+.pagination ul > li > a:hover,
+.pagination ul > .active > a,
+.pagination ul > .active >
+span {
+  								background-color: #6d6d6d;color:#fff;
+}
+.pagination ul > .active > a,
+.pagination ul > .active >
+span {							color: #999999; cursor: default;
+}
+.pagination ul > .disabled > span,
+.pagination ul > .disabled > a,
+.pagination ul > .disabled
+> a:hover {						color: #999999; background-color: transparent; cursor: default;}
+.current{						background-color: #222 !important; color:#fff !important;}
+
+
+/*category*/
+.cat{margin:0px 0px 60px 0px;padding-bottom:60px;border-bottom: 1px solid #bcbcbc;}
+
+
+/*aside*/
+.widgbox{margin-bottom: 30px;
+border-bottom: 1px dashed #aaa;
+padding-bottom: 15px;}
+
+/*single*/
+.post-side-meta{}
+
+.post-side-meta ul{list-style: none;margin:0px;padding:0px;}
+.post-side-meta ul li{margin-bottom:15px;}
+.post-side-meta ul li span{background:#222;display:block;width:50%;height:60px;color:#fff;}
+.post-side-meta ul li span i{font-size: 2em;line-height: 1.8em;}
+
+
+.featured-img, .single-full .row{margin:0px;padding:0px;}
+.the-content{margin-top:30px;position:relative;}
+
+.author-meta{background: #222;position:absolute;width:270px;padding:15px;left: 135px;z-index: 10;display:none;}
+.the-author{background:#ccc;width:50%;border: 1px solid #FFFFFF;box-shadow: 0px 2px 0px #CFCFCF;margin:30px auto;}
+.author-btn{cursor: pointer;}
+
+
+/*comments*/
+
+.comment-section{}
+.comment-section .comment-section-header{padding-bottom:30px;margin-top:90px;}
+.commentlist {
+border-top: 1px dotted rgb(211, 211, 211);
+padding:60px 0px 0px 0px; margin: 0 0 60px 0;list-style: none;overflow: hidden;
+}
+.comment{display:inline-block;margin-bottom:30px;}
+.commentr-meta{margin-right:30px;}
+.commentr-meta img{opacity: .8; -webkit-transition:1s;
+   -moz-transition:1s;
+     -o-transition:1s;
+        transition:1s;}
+.commentr-meta img:hover {opacity:1;}
+.comment-body{overflow: hidden; padding: 15px 30px;border-left: 1px dotted #d8d8d8;}
+
+
+
+.child {border-top: none !important;margin: 0px 0px 0px 120px;padding-top:30px;}
+.child li:nth-child(odd){}
+.child li:nth-child(even) .comment-body{background:rgba(245, 245, 245, 0.63);}
+.child .comment-body{padding-top:15px;padding-bottom: 0px;}
+
+
+
+footer{border-top: 1px solid #dadada;margin-top:30px;padding-top:30px;}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+}
