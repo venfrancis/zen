@@ -80,6 +80,9 @@ aside ul li p.sb-post-desc 								{color: #8b8b8b;font: .8em "Helvetica", Arial
 .comment-body a 										{color:#666;font-style: italic;}
 .comment-body a:hover 									{color:#8F8F8F;font-style: italic;border-bottom: 1px dotted #999999;color:#222;text-decoration: none;}
 
+.comment-form .comment-notes 							{font-size: 1em;margin-bottom: 0px;text-align: right;color:#666;}
+.comment-form .form-group label							{font-size: 1.2em;line-height: 1em;margin-bottom: 0px;}
+
 /*code*/
-.comment-section .form-allowed-tags 					{}
-.comment-section .form-allowed-tags code 				{font-size:80%;white-space: pre-wrap;}
+.comment-section .form-allowed-tags  					{line-height: 1.5em;font-size: 1.1em;}
+.comment-section .form-allowed-tags code 				{font-size: .8em;white-space: pre-wrap;color: #A6C0C5;background-color: #E6EBEC;font-weight: 100;}
