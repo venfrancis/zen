@@ -21,11 +21,7 @@ II. BOOTSTRAP CUSTOMIZATION
 
 ===============================================*/
 
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+.center-block                                          {display: block;margin-left: auto;margin-right: auto;}
 /*===============================================
 
 I. SLIDE CONFIG
