@@ -42,6 +42,7 @@ nav ul li a:hover 										{text-decoration: none; color:#222;}
 nav ul li a em 											{font-size:.4em;position: absolute; width: 150px;text-indent: 1500px;height: 20px;bottom: 0px;letter-spacing: 1px;color:#808080;}
 
 
+
 .post h1 												{font-size: 5.6em; margin:0 0 30px 0;line-height: 100%;letter-spacing: -1px;font-weight: normal;}
 .post-meta 												{display: block;background: rgba(228, 228, 228, 0.15);border-top: 1px dotted #808080;border-bottom: 1px dotted #808080;margin-top: 60px;padding: 10px;font-family: Georgia, "Times New Roman", Times, serif;margin-bottom: 60px;}
 .post-meta p 											{margin:0px;padding: 0;color: #808080;text-shadow: 0px 1px 0px #fff;}
@@ -86,3 +87,32 @@ aside ul li p.sb-post-desc 								{color: #8b8b8b;font: .8em "Helvetica", Arial
 /*code*/
 .comment-section .form-allowed-tags  					{line-height: 1.5em;font-size: 1.1em;}
 .comment-section .form-allowed-tags code 				{font-size: .8em;white-space: pre-wrap;color: #A6C0C5;background-color: #E6EBEC;font-weight: 100;}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.nav-social li a 										{margin: 15px 30px;padding:0px;}
+	article {margin:30px 60px 60px 60px;}
+	.pagination{margin:60px;}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+	.nav-social li a 										{margin: 15px 45px;padding:0px;}
+
+
+}

@@ -29,12 +29,12 @@ I. SLIDE CONFIG
 ===============================================*/
 
 
-body 										                               {background: #fcfcfc;;}
+body 										           {background: #fcfcfc;;}
 .main-wrapper                                          {border-top:15px solid #222}
-header 										                             {}
+header 										           {}
 
-nav 										                               {overflow:hidden;margin-bottom:60px;background: #fafafa;border-top: 1px solid #dadada;border-bottom: 1px solid #dadada;}
-nav ul 										                             {}
+nav 										           {overflow:hidden;margin-bottom:60px;background: #fafafa;border-top: 1px solid #dadada;border-bottom: 1px solid #dadada;}
+nav ul 										           {}
 nav ul li 									                           {display:inline-block;}
 
 
